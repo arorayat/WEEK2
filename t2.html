@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+ <div class="icons">
+        <i class="fas fa-globe" <button onclick="getLocation()"></i>
+        
+    </div>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Welcome to our Website</h3>
+        <p>Dicover new places with us, adventure is waiting</p>
+    </div>
+
+     <div class="video-container">
+        <video src="vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
